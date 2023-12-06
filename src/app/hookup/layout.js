@@ -14,7 +14,6 @@ export default function HookupLayout({ children }) {
           <p className="logo text-red-500 text-2xl cursor-pointer classified-text">classified</p>
           <p className="logo text-red-500 text-2xl cursor-pointer classified-text">classified</p>
           <p className="logo text-red-500 text-2xl cursor-pointer classified-text">classified</p>
-          <p className="logo text-red-500 text-2xl cursor-pointer classified-text">classified</p>
         </div>
         <div>
         </div>
