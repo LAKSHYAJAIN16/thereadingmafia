@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useUser } from "@/contexts/useUser";
 
 export default function Hookup() {
@@ -10,10 +10,14 @@ export default function Hookup() {
         thereading<span className="text-red-500">mafia</span>
       </h1>
       <h3 className="text-center mt-2 logo-light">
-        the underground community of readers.
+        the underground community of the most serious readers.
       </h3>
 
-      <button>join with google</button>
+      <br />
+      <button className="signupButton googleButton">
+        <img />
+        <span>Sign in with Google</span>
+      </button>
     </div>
   );
 }

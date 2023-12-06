@@ -3,7 +3,7 @@ import { useState, useEffect, createContext, useContext } from "react";
 import { createFirebaseApp } from "@/db/fire";
 import { getAuth, onAuthStateChanged } from "firebase/auth";
 
-export const UserContext = createContext();
+export const UserContext = createContext("");
 
 export default function UserContextComp({ children }) {
   const [user, setUser] = useState(null);
