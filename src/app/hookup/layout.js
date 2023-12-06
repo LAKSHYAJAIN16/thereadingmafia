@@ -8,16 +8,6 @@ export const metadata = {
 export default function HookupLayout({ children }) {
   return (
     <div>
-      <nav className="sticky flex mt-2 items-center">
-        <h1 className="text-4xl logo">thereadingmafia</h1>
-        <div className="flex justify-evenly w-[90%] items-center mt-2">
-          <p className="logo text-red-500 text-2xl cursor-pointer classified-text">classified</p>
-          <p className="logo text-red-500 text-2xl cursor-pointer classified-text">classified</p>
-          <p className="logo text-red-500 text-2xl cursor-pointer classified-text">classified</p>
-        </div>
-        <div>
-        </div>
-      </nav>
       <main>{children}</main>
     </div>
   );
