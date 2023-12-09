@@ -14,9 +14,9 @@ export default function Hookup() {
       </h3>
 
       <br />
-      <button className="signupButton googleButton">
-        <img />
-        <span>Sign in with Google</span>
+      <button className="signUpButton font googleButton">
+        <img src="/search.png" height={25} width={25} className="mr-2"/>
+        <p>Sign in with Google</p>
       </button>
     </div>
   );
